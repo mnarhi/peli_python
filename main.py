@@ -1,4 +1,11 @@
-# TEE PELI TÄHÄN
+#Pelaaja liikuttaa robottia nuolinäppäimillä.
+#Ruudulla näkyy kolikko, joka robotin tulee kerätä. 
+#Kun robotti saa kolikon, uusi kolikko ilmestyy uuteen paikkaan.
+#Ruudulla on myös hirviöitä, joita robotin tulee väistellä. 
+#Peli päättyy, mikäli robotti osuu hirviöön. 
+#Peli on läpäisty, kun robotti on kerännyt yhteensä kymmenen kolikkoa. 
+#Kolikkolaskuri nälyy peliruudun yläreunassa.
+
 import pygame
 import random
 
@@ -229,8 +236,3 @@ class Keraily:
 if __name__ == "__main__":
     Keraily() 
 
-
-    #Pelaaja liikuttaa robottia nuolinäppäimillä
-    #Ruudulla on kolikko, joka robotin tulee kerätä. 
-    #Kun robotti saa kolikon, kolikko siirtyy uuteen paikkaan.
-    #Ruudulla on myös hirviöitä, joita robotin tulee väistellä.
